@@ -374,18 +374,16 @@
 
 .lots__look-more-link {
   width: 192px;
-  height: 25px;
+  height: 23px;
   top: 700px;
   left: 40px;
   border: 1px 0px 0px 0px;
   font-family: Raleway;
-  font-size: 20px;
   font-weight: 400;
   line-height: 23.48px;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
   margin-top: 20px;
-  text-decoration: none;
   font-size: 16px;
   text-decoration: underline;
   text-align: end;
@@ -449,7 +447,6 @@
   font-size: 40px;
   font-weight: 700;
   line-height: 46.96px;
-  text-align: left;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
   margin-bottom: 20px;
