@@ -373,7 +373,6 @@
 .lots__look-more-link {
   width: 192px;
   height: 23px;
-  top: 700px;
   left: 40px;
   border: 1px 0px 0px 0px;
   font-family: Raleway;
@@ -382,9 +381,10 @@
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
   margin-top: 20px;
-  font-size: 16px;
+  font-size: 20px;
   text-decoration: underline;
   text-align: end;
+  position: relative;
 }
 
 /* Основной контейнер секции */
