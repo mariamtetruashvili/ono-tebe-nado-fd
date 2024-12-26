@@ -211,6 +211,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  
 }
 
 .overlay {
@@ -236,11 +237,11 @@
 }
 
 .lots__card-list {
-  padding: 27px 0px 15px;
   list-style: none;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  transform: translateY(27px);
 }
 
 .lots__card-list-item {
@@ -316,7 +317,7 @@
   text-decoration: underline;
   text-align: left;
   padding-left: 40px;
-  transform: translateY(-4px);
+  transform: translateY(37px);
 }
 
 /* Основной контейнер секции */
@@ -327,10 +328,11 @@
   opacity: 1;
   margin: 0 auto;
   margin-bottom: 180px;
-  padding: 30px 47px;
+  padding: 28px 47px;
 }
 
 .about__logo {
+  transform: translateY(43px);
   width: 240px;
   height: 240px;
   background-color: black;
@@ -348,12 +350,12 @@
 
 .about__column:last-child {
   max-width: 693px;
-  margin-top: 146px;
+  margin-top: 118px;
   padding-left: 47px;
 }
 
 .about__title {
-  margin-top: -45px;
+  transform: translateY(27px);
   font-family: "Raleway", sans-serif;
   text-align: left;
   text-transform: uppercase;
@@ -377,11 +379,13 @@
 }
 
 .about__text-main {
+  transform: translateY(27px);
   margin-top: 100px;
   width: 688px;
 }
 
 .about__text-secondary {
+  transform: translateY(27px);
   margin-top: 23px;
 }
 
@@ -391,14 +395,18 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   width: 1100px;
-  padding: 50px;
+  padding-bottom: 82px;
+
 }
 
 .footer__address {
   max-width: 264.57px;
   border: 1px 0px 0px 0px;
   font-style: normal;
-  margin-top: -80px;
+  display: flex;
+  flex-direction: column;
+  justify-self: center; 
+ 
 }
 
 .address-link {
@@ -423,12 +431,18 @@
 }
 
 .footer__menu {
-  margin-top: -80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-self: center;
+  justify-content: flex-start;
+  text-align: center;
+  
 }
+
 
 .footer__menu-list {
   list-style: none;
-  text-align: center;
 }
 
 .footer__menu-link {
@@ -446,10 +460,11 @@
 }
 
 .footer__social-list {
-  margin-left: auto;
-  margin-top: -80px;
-  display: flex;
   list-style: none;
   width: 240px;
   gap: 48px;
+  display: flex;
+  justify-self: center;
+  margin-left: 25px;
 }
+
